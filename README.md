@@ -185,7 +185,7 @@ corrected ones, and what the heat pump answers.
 
 | Register | Attribute | LG's name |
 | :--- | :--- | :--- |
-| 10001 | `water_flow_too_low` | Water flow status (0 flow rate ok, 1 too low) |
+| 10001 | `water_flow` | Water flow status (documented as 0 flow rate ok, 1 too low; observed: 1 while water flows, 0 when the pump stops) |
 | 10002 | `water_pump` | Water Pump status |
 | 10003 | `external_water_pump` | Ext. Water Pump status |
 | 10004 | `compressor` | Compressor status |

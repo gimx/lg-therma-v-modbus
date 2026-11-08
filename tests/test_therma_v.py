@@ -41,7 +41,7 @@ async def test_status_bits(therma_v: ThermaV) -> None:
     assert therma_v.status.backup_heater_step_1 is True
     assert therma_v.status.backup_heater_step_2 is False
     assert therma_v.status.mix_pump is True
-    assert therma_v.status.water_flow_too_low is False
+    assert therma_v.status.water_flow is False
 
 
 async def test_readings_are_scaled_and_signed(therma_v: ThermaV) -> None:
